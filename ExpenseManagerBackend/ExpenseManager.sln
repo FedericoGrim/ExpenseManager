@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.API", "ExpenceManager\ExpenceManager.API.csproj", "{6496EE60-087C-4021-A245-3B33D5DA9811}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.API", "ExpenceManager\ExpenseManager.API.csproj", "{6496EE60-087C-4021-A245-3B33D5DA9811}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -11,25 +11,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Prese
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Layer", "Application Layer", "{12EBE25D-57A5-4F19-8A82-009BE9362658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.Command.Abstraction", "ExpenceManager.Command.Abstraction\ExpenceManager.Command.Abstraction.csproj", "{116B4AEE-C025-43CE-9473-7EB0C2835BF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Command.Abstraction", "ExpenceManager.Command.Abstraction\ExpenseManager.Command.Abstraction.csproj", "{116B4AEE-C025-43CE-9473-7EB0C2835BF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Insfrastructure Layer", "Insfrastructure Layer", "{D870B1E0-4FEB-4B68-B8D2-BDD312F3AB10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.Persistance", "ExpenceManager.Persistance\ExpenceManager.Persistance.csproj", "{66A5B15E-73F9-4AED-9199-49061A347491}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Persistance", "ExpenceManager.Persistance\ExpenseManager.Persistance.csproj", "{66A5B15E-73F9-4AED-9199-49061A347491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.Persistance.Migrations", "ExpenceManager.Persistance.Migrations\ExpenceManager.Persistance.Migrations.csproj", "{B7A956CF-21A3-46E8-AEA2-BFFDC77D6EB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Persistance.Migrations", "ExpenceManager.Persistance.Migrations\ExpenseManager.Persistance.Migrations.csproj", "{B7A956CF-21A3-46E8-AEA2-BFFDC77D6EB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.Command", "ExpenceManager.Command\ExpenceManager.Command.csproj", "{442B0332-C2D5-46CD-9BBC-251458C97559}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Command", "ExpenceManager.Command\ExpenseManager.Command.csproj", "{442B0332-C2D5-46CD-9BBC-251458C97559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.Query", "ExpenceManager.Query\ExpenceManager.Query.csproj", "{DF9AB6EF-4D45-43B9-9BEC-0CE142BD72C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Query", "ExpenceManager.Query\ExpenseManager.Query.csproj", "{DF9AB6EF-4D45-43B9-9BEC-0CE142BD72C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.Query.Abstraction", "ExpenceManager.Query.Abstraction\ExpenceManager.Query.Abstraction.csproj", "{0D6F4063-B680-42DA-8640-245AE0202CE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Query.Abstraction", "ExpenceManager.Query.Abstraction\ExpenseManager.Query.Abstraction.csproj", "{0D6F4063-B680-42DA-8640-245AE0202CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.Job", "ExpenceManager.Job\ExpenceManager.Job.csproj", "{8CDD52CF-ED58-40F8-A894-F8801E4210D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Job", "ExpenceManager.Job\ExpenseManager.Job.csproj", "{8CDD52CF-ED58-40F8-A894-F8801E4210D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{90D309FA-CB94-4DFB-8A89-6362969E67E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenceManager.Domain", "ExpenceManager.Domain\ExpenceManager.Domain.csproj", "{81C0C5ED-8CB5-4154-802C-EC2EDC40830A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManager.Domain", "ExpenceManager.Domain\ExpenseManager.Domain.csproj", "{81C0C5ED-8CB5-4154-802C-EC2EDC40830A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
